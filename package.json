@@ -1,0 +1,38 @@
+{
+  "name": "pangaeacodechallenge",
+  "version": "1.0.0",
+  "description": "PubSub HTTP Server",
+  "main": "app.js",
+  "scripts": {
+    "start": "cross-env NODE_ENV=development nodemon app.js",
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix",
+    "prettier": "prettier --check **/*.js",
+    "prettier:fix": "prettier --write **/*.js"
+  },
+  "author": "",
+  "dependencies": {
+    "@hapi/joi": "^17.1.0",
+    "cross-env": "^7.0.2",
+    "dotenv": "^8.2.0",
+    "eslint": "^7.13.0",
+    "eslint-config-airbnb-base": "^14.0.0",
+    "eslint-config-prettier": "^6.4.0",
+    "eslint-plugin-import": "^2.18.2",
+    "eslint-plugin-prettier": "^3.1.1",
+    "eslint-plugin-security": "^1.4.0",
+    "express": "^4.17.1",
+    "http-status": "^1.4.0",
+    "morgan": "^1.9.1",
+    "prettier": "^2.1.2",
+    "redis": "^3.0.2",
+    "sse-broadcast": "^0.5.2",
+    "sse-broadcast-redis": "^0.1.1",
+    "validator": "^13.0.0",
+    "winston": "^3.2.1"
+  },
+  "devDependencies": {
+    "eslint-plugin-prettier": "^3.1.4",
+    "eslint-plugin-security": "^1.4.0"
+  }
+}
